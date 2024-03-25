@@ -1,0 +1,9 @@
+main {
+  width: 960px;
+  margin: auto;
+}
+
+form {
+  padding: 2rem;
+  background-color: rgb(243, 243, 243);
+}

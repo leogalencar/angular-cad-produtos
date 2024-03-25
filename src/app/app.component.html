@@ -1,32 +1,5 @@
 <main>
-  <form>
-    <h1 class="text-center mb-3">Cadastro de Produtos</h1>
-    <div class="row mb-3">
-      <div class="col">
-        <label for="productId" class="form-label">ID</label>
-        <input type="text" class="form-control" id="productID">
-      </div>
-      <div class="col">
-        <label for="productName" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="productName">
-      </div>
-    </div>
-    <div class="row mb-3">
-      <div class="col d-flex flex-column">
-        <label for="productDescription" class="form-label">Descrição</label>
-        <textarea class="form-control" name="productDescription" id="productDescription" cols="40" rows="10"></textarea>
-      </div>
-    </div>
-    <div class="row mb-3">
-      <div class="col">
-        <label for="productPrice" class="form-label">Preço</label>
-        <input type="text" class="form-control" id="productPrice">
-      </div>
-      <div class="col">
-        <label for="productQuantity" class="form-label">Quantidade</label>
-        <input type="text" class="form-control" id="productQuantity">
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Salvar</button>
-  </form>
+  <div class="container">
+    <app-products-form></app-products-form>
+  </div>
 </main>
